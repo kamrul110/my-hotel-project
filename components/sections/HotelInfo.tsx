@@ -2,7 +2,6 @@
 
 import { Star, MapPin, Wifi, Car, Coffee, Dumbbell, Waves, Utensils } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
 import { Hotel, Review } from '@/types/hotel';
 
 interface HotelInfoProps {
@@ -154,7 +153,7 @@ export default function HotelInfo({ hotel, reviews }: HotelInfoProps) {
           {/* Nearby attractions */}
           <Card>
             <CardHeader>
-              <CardTitle>What's nearby</CardTitle>
+              <CardTitle>What&apos;s nearby</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="space-y-2 text-sm">
