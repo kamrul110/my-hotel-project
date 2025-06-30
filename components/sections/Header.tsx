@@ -84,7 +84,7 @@ export default function Header() {
 
             {/* List property button */}
             <button  className="flex items-center space-x-2 px-4 py-2 rounded-full border-2 border-[#A5D3F1] text-[#007DD0]">
-              List your propertyhiii
+              List your property
               <span className="ml-2">↗</span>
             </button>
 
