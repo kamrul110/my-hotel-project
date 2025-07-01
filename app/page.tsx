@@ -3,6 +3,8 @@ import HotelHero from '@/components/sections/HotelHero';
 import RoomListing from '@/components/sections/RoomListing';
 import HotelInfo from '@/components/sections/HotelInfo';
 import GuestReviews from '@/components/sections/GuestReviews';
+import HotelPolicies from '@/components/sections/HotelPolicies';
+import SimilarHotels from '@/components/sections/SimilarHotels';
 import Footer from '@/components/sections/Footer';
 import { hotelData, roomsData, reviewsData } from '@/data/hotelData';
 
@@ -29,6 +31,12 @@ export default function Home() {
 
         {/* Guest Reviews */}
         <GuestReviews />
+
+        {/* Hotel Policies */}
+        <HotelPolicies />
+
+        {/* Similar Hotels */}
+        <SimilarHotels />
       </main>
       
       <Footer/>
