@@ -7,7 +7,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold text-blue-400 mb-4">Joyinn</h3>
             <p className="text-gray-300 text-sm mb-4">
-              Your trusted partner for finding the perfect accommodation worldwide.
+              Your trusted that partner for finding the perfect accommodation worldwide.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white">
