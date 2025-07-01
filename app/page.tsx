@@ -1,8 +1,8 @@
 import Header from '@/components/sections/Header';
 import HotelHero from '@/components/sections/HotelHero';
-// import BookingForm from '@/components/sections/BookingForm';
 import RoomListing from '@/components/sections/RoomListing';
 import HotelInfo from '@/components/sections/HotelInfo';
+import GuestReviews from '@/components/sections/GuestReviews';
 import Footer from '@/components/sections/Footer';
 import { hotelData, roomsData, reviewsData } from '@/data/hotelData';
 
@@ -21,14 +21,14 @@ export default function Home() {
           location={hotelData.location}
         />
         
-        {/* Booking Form */}
-        {/* <BookingForm /> */}
-        
         {/* Room Availability */}
         <RoomListing rooms={roomsData} />
         
         {/* Hotel Information */}
         <HotelInfo hotel={hotelData} reviews={reviewsData} />
+
+        {/* Guest Reviews */}
+        <GuestReviews />
       </main>
       
       <Footer/>
