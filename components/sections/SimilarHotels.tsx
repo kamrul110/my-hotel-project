@@ -247,7 +247,7 @@ const HotelCard: React.FC<{ hotel: HotelProps }> = ({ hotel }) => {
                 d="M7 11.5v-10A1.5 1.5 0 018.5 0h7A1.5 1.5 0 0117 1.5v10m-1.5 0v.5a2 2 0 01-2 2h-7a2 2 0 01-2-2v-.5h-1.5a1.5 1.5 0 00-1.5 1.5v4a1.5 1.5 0 001.5 1.5h10A1.5 1.5 0 0017 17.5v-4a1.5 1.5 0 00-1.5-1.5H15.5z"
               ></path>
             </svg>
-            <span>{hotel.bathrooms} Bathroom</span>
+            <span>{hotel.bathrooms} Bathroom new</span>
           </div>
           <div className="flex items-center">
             <svg
@@ -264,13 +264,13 @@ const HotelCard: React.FC<{ hotel: HotelProps }> = ({ hotel }) => {
                 d="M3 6l3 1m0 0l-3 9a5 5 0 0010.27.24l3 11a5 5 0 004.93 3.66l3-1.5m-3-12.02l3 9a5 5 0 004.93 3.66l3-1.5m-3-12.02l-3-9a5 5 0 00-4.93-3.66l-3 1.5"
               ></path>
             </svg>
-            <span>{hotel.sqFt} sq ft</span>
+            <span>{hotel.sqFt} sq ft then</span>
           </div>
         </div>
 
         <div className="flex justify-between items-center">
           <button className="bg-blue-600 text-white px-5 py-2 rounded-md hover:bg-blue-700 transition-colors duration-200">
-            Book Now
+            Book 
           </button>
           <button className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors duration-200">
             <svg
