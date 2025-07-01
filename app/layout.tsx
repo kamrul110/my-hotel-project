@@ -9,8 +9,8 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "El Aurassi Hotel - DAYF Booking",
-  description: "Book your stay at El Aurassi Hotel with panoramic Mediterranean views",
+  title: "strokeLinecap - DAYF Booking",
+  description: "Book your stay at strokeLinecap with panoramic Mediterranean views",
 };
 
 export default function RootLayout({

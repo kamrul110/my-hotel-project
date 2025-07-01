@@ -1,6 +1,6 @@
 import Header from '@/components/sections/Header';
 import HotelHero from '@/components/sections/HotelHero';
-import BookingForm from '@/components/sections/BookingForm';
+// import BookingForm from '@/components/sections/BookingForm';
 import RoomListing from '@/components/sections/RoomListing';
 import HotelInfo from '@/components/sections/HotelInfo';
 import Footer from '@/components/sections/Footer';
@@ -22,7 +22,7 @@ export default function Home() {
         />
         
         {/* Booking Form */}
-        <BookingForm />
+        {/* <BookingForm /> */}
         
         {/* Room Availability */}
         <RoomListing rooms={roomsData} />
