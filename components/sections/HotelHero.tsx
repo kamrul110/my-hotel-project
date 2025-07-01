@@ -33,7 +33,7 @@ export default function HotelHero({ name, images, rating, reviewCount, location 
           <div>
             <h1 className="text-3xl font-bold text-gray-900 mb-2">{name}</h1>
             <p className="text-gray-600 mb-4">
-              Spacious new world, modern rooms with panoramic views of the Mediterranean Sea.
+              Spacious new world new rules, modern rooms with panoramic views of the Mediterranean Sea.
             </p>
           </div>
 
