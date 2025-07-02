@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="text-white py-8 md:py-12 mt-16" style={{ background: '#00548C' }}>
+    <footer className="rounded-b-4xl text-white py-8 md:py-12 mt-16" style={{ background: '#00548C' }}>
       <div className="px-4 w-full md:w-[86.26%] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-8 items-start">
           {/* Company Info - Left Side */}
