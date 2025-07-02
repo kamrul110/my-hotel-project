@@ -229,7 +229,7 @@ export default function RoomListing() {
 
             {/* npm2 */}
             {/* Deluxe Double Room */}
-           <tr className="hover:bg-gray-50">
+           <tr className="hover:bg-gray-50 ">
               <td className=" py-6  align-top">
                 <div className='h-[120px] border-r border-blue-300'>
                   <h3 className="font-medium text-[#007DD0] mb-2">Deluxe Double Room</h3>
@@ -369,7 +369,7 @@ export default function RoomListing() {
             </tr>
 
             {/* Third Room */}
-             <tr className="hover:bg-gray-50 ">
+             <tr className="hover:bg-gray-50 border-b border-blue-300 ">
               <td className=" py-6  align-top">
                 <div className='h-[120px] border-r border-blue-300'>
                   <h3 className="font-medium text-[#007DD0] mb-2">Deluxe Double Room</h3>
