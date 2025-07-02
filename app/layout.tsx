@@ -24,6 +24,7 @@ export default function RootLayout({
         className={`${dmSans.variable} font-sans antialiased`}
         style={{ fontFamily: '"DM Sans", sans-serif' }}
       >
+        
         {children}
       </body>
     </html>
