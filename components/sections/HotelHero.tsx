@@ -331,7 +331,7 @@ export default function HotelHero() {
 
           {/* Right Sidebar - Booking Card */}
           <div className="lg:w-1/3 md:mt-8 lg:mt-8 ">
-            <Card className="sticky top-6">
+            <Card className=" top-6">
               <CardContent className="p-4 md:p-6">
                 <div className="mb-4">
                   <p className="text-gray-600 text-xs md:text-sm mb-1">1 week, 2 adults, 1 child</p>
