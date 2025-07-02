@@ -7,44 +7,44 @@ export default function HotelPolicies() {
       
       <div className="border border-gray-200 rounded-lg overflow-hidden">
         {/* Check-in */}
-        <div className="flex border-b">
-          <div className="w-1/3 p-6">
+        <div className="flex flex-col md:flex-row border-b">
+          <div className="w-full md:w-1/3 p-4 md:p-6 bg-gray-50 md:bg-white">
             <h3 className="font-medium">Check-in</h3>
           </div>
-          <div className="w-2/3 p-6">
+          <div className="w-full md:w-2/3 p-4 md:p-6">
             <p className="font-medium mb-2">Available 24 hours</p>
             <p className="text-sm text-gray-600 mb-1">Guests are required to show a photo identification and credit card upon check-in</p>
-            <p className="text-sm text-gray-600">You'll need to let the property know in advance what time you'll arrive.</p>
+            <p className="text-sm text-gray-600">You will need to let the property know in advance what time you will arrive.</p>
           </div>
         </div>
 
         {/* Check-out */}
-        <div className="flex border-b">
-          <div className="w-1/3 p-6">
+        <div className="flex flex-col md:flex-row border-b">
+          <div className="w-full md:w-1/3 p-4 md:p-6 bg-gray-50 md:bg-white">
             <h3 className="font-medium">Check-out</h3>
           </div>
-          <div className="w-2/3 p-6">
+          <div className="w-full md:w-2/3 p-4 md:p-6">
             <p className="font-medium">Available 24 hours</p>
           </div>
         </div>
 
         {/* Cancellation */}
-        <div className="flex border-b">
-          <div className="w-1/3 p-6">
+        <div className="flex flex-col md:flex-row border-b">
+          <div className="w-full md:w-1/3 p-4 md:p-6 bg-gray-50 md:bg-white">
             <h3 className="font-medium">Cancellation/ prepayment</h3>
           </div>
-          <div className="w-2/3 p-6">
+          <div className="w-full md:w-2/3 p-4 md:p-6">
             <p className="text-sm text-gray-600 mb-2">Cancellation and prepayment policies vary according to accommodation type.</p>
             <p className="text-sm text-gray-600">Please check what conditions may apply to each option when making your selection.</p>
           </div>
         </div>
 
         {/* Children and beds */}
-        <div className="flex border-b">
-          <div className="w-1/3 p-6">
+        <div className="flex flex-col md:flex-row border-b">
+          <div className="w-full md:w-1/3 p-4 md:p-6 bg-gray-50 md:bg-white">
             <h3 className="font-medium">Children and beds</h3>
           </div>
-          <div className="w-2/3 p-6">
+          <div className="w-full md:w-2/3 p-4 md:p-6">
             <p className="font-medium mb-2">Child policies</p>
             <p className="text-sm text-gray-600 mb-1">Children of any age are welcome.</p>
             <p className="text-sm text-gray-600 mb-1">Children 12 years and above will be charged as adults at this property.</p>
@@ -59,31 +59,31 @@ export default function HotelPolicies() {
         </div>
 
         {/* No age restriction */}
-        <div className="flex border-b">
-          <div className="w-1/3 p-6">
+        <div className="flex flex-col md:flex-row border-b">
+          <div className="w-full md:w-1/3 p-4 md:p-6 bg-gray-50 md:bg-white">
             <h3 className="font-medium">No age restriction</h3>
           </div>
-          <div className="w-2/3 p-6">
+          <div className="w-full md:w-2/3 p-4 md:p-6">
             <p className="text-sm text-gray-600">There is no age requirement for check-in</p>
           </div>
         </div>
 
         {/* Pets */}
-        <div className="flex border-b">
-          <div className="w-1/3 p-6">
+        <div className="flex flex-col md:flex-row border-b">
+          <div className="w-full md:w-1/3 p-4 md:p-6 bg-gray-50 md:bg-white">
             <h3 className="font-medium">Pets</h3>
           </div>
-          <div className="w-2/3 p-6">
+          <div className="w-full md:w-2/3 p-4 md:p-6">
             <p className="text-sm text-gray-600">Pets are not allowed.</p>
           </div>
         </div>
 
         {/* Cash only */}
-        <div className="flex">
-          <div className="w-1/3 p-6">
+        <div className="flex flex-col md:flex-row">
+          <div className="w-full md:w-1/3 p-4 md:p-6 bg-gray-50 md:bg-white">
             <h3 className="font-medium">Cash only</h3>
           </div>
-          <div className="w-2/3 p-6">
+          <div className="w-full md:w-2/3 p-4 md:p-6">
             <p className="text-sm text-gray-600">This property only accepts cash payments.</p>
           </div>
         </div>
