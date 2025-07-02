@@ -162,7 +162,7 @@ export default function HotelHero() {
                   <path d="M21.5 4.5C21.5 6.433 19.933 8 18 8C16.067 8 14.5 6.433 14.5 4.5C14.5 2.567 16.067 1 18 1C19.933 1 21.5 2.567 21.5 4.5Z" stroke="white" strokeWidth="1.5" />
                 </svg>
 
-                <span className="hidden md:inline">Message</span>
+                <span className=" md:inline">Message</span>
               </button>
             </div>
 
