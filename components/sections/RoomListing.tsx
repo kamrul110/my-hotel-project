@@ -99,14 +99,14 @@ export default function RoomListing() {
                         </div>
                         <div className='flex items-center gap-2'>
                           <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                            <path d="M16 11.865H1" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
-                            <path d="M16 14.49V10.74C16 9.32578 16 8.61867 15.5607 8.17933C15.1213 7.73999 14.4142 7.73999 13 7.73999H4C2.58579 7.73999 1.87868 7.73999 1.43934 8.17933C1 8.61867 1 9.32578 1 10.74V14.49" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
+                            <path d="M16 11.865H1" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
+                            <path d="M16 14.49V10.74C16 9.32578 16 8.61867 15.5607 8.17933C15.1213 7.73999 14.4142 7.73999 13 7.73999H4C2.58579 7.73999 1.87868 7.73999 1.43934 8.17933C1 8.61867 1 9.32578 1 10.74V14.49" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
                             <path d="M11.5 7.73999V6.70335C11.5 6.32271 11.4313 6.1954 11.0797 6.04537C10.3473 5.73291 9.45838 5.48999 8.5 5.48999C7.54162 5.48999 6.65266 5.73291 5.9203 6.04537C5.56865 6.1954 5.5 6.32271 5.5 6.70335L5.5 7.73999" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" />
                             <path d="M14.5 7.73999V4.26042C14.5 3.74168 14.5 3.48232 14.3719 3.23738C14.2438 2.99245 14.0613 2.86567 13.6963 2.61211C12.2246 1.58982 10.4329 0.98999 8.5 0.98999C6.56711 0.98999 4.77543 1.58982 3.30372 2.61211C2.93869 2.86567 2.75618 2.99245 2.62809 3.23738C2.5 3.48232 2.5 3.74168 2.5 4.26042V7.73999" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" />
                           </svg>
                           <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                            <path d="M16 11.865H1" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
-                            <path d="M16 14.49V10.74C16 9.32578 16 8.61867 15.5607 8.17933C15.1213 7.73999 14.4142 7.73999 13 7.73999H4C2.58579 7.73999 1.87868 7.73999 1.43934 8.17933C1 8.61867 1 9.32578 1 10.74V14.49" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
+                            <path d="M16 11.865H1" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
+                            <path d="M16 14.49V10.74C16 9.32578 16 8.61867 15.5607 8.17933C15.1213 7.73999 14.4142 7.73999 13 7.73999H4C2.58579 7.73999 1.87868 7.73999 1.43934 8.17933C1 8.61867 1 9.32578 1 10.74V14.49" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
                             <path d="M11.5 7.73999V6.70335C11.5 6.32271 11.4313 6.1954 11.0797 6.04537C10.3473 5.73291 9.45838 5.48999 8.5 5.48999C7.54162 5.48999 6.65266 5.73291 5.9203 6.04537C5.56865 6.1954 5.5 6.32271 5.5 6.70335L5.5 7.73999" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" />
                             <path d="M14.5 7.73999V4.26042C14.5 3.74168 14.5 3.48232 14.3719 3.23738C14.2438 2.99245 14.0613 2.86567 13.6963 2.61211C12.2246 1.58982 10.4329 0.98999 8.5 0.98999C6.56711 0.98999 4.77543 1.58982 3.30372 2.61211C2.93869 2.86567 2.75618 2.99245 2.62809 3.23738C2.5 3.48232 2.5 3.74168 2.5 4.26042V7.73999" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" />
                           </svg>
@@ -118,11 +118,11 @@ export default function RoomListing() {
                       <div className='flex items-center gap-2'>
                         <div>
                           <svg xmlns="http://www.w3.org/2000/svg" width="15" height="17" viewBox="0 0 15 17" fill="none">
-                            <path d="M2.25 16.24V5.73999C2.25 3.61867 2.25 2.55801 2.90901 1.899C3.56802 1.23999 4.62868 1.23999 6.75 1.23999H8.25C10.3713 1.23999 11.432 1.23999 12.091 1.899C12.75 2.55801 12.75 3.61867 12.75 5.73999V16.24H2.25Z" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
-                            <path d="M4.5 7.98999V4.98999C4.5 3.74899 4.759 3.48999 6 3.48999H9C10.241 3.48999 10.5 3.74899 10.5 4.98999V7.98999C10.5 9.23099 10.241 9.48999 9 9.48999H6C4.759 9.48999 4.5 9.23099 4.5 7.98999Z" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
-                            <path d="M0.75 16.24H14.25" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
-                            <path d="M7.5 3.48999V9.48999M10.5 6.48999L4.5 6.48999" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
-                            <path d="M4.506 12.49L4.49927 12.49" stroke="#626262" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round" />
+                            <path d="M2.25 16.24V5.73999C2.25 3.61867 2.25 2.55801 2.90901 1.899C3.56802 1.23999 4.62868 1.23999 6.75 1.23999H8.25C10.3713 1.23999 11.432 1.23999 12.091 1.899C12.75 2.55801 12.75 3.61867 12.75 5.73999V16.24H2.25Z" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
+                            <path d="M4.5 7.98999V4.98999C4.5 3.74899 4.759 3.48999 6 3.48999H9C10.241 3.48999 10.5 3.74899 10.5 4.98999V7.98999C10.5 9.23099 10.241 9.48999 9 9.48999H6C4.759 9.48999 4.5 9.23099 4.5 7.98999Z" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
+                            <path d="M0.75 16.24H14.25" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
+                            <path d="M7.5 3.48999V9.48999M10.5 6.48999L4.5 6.48999" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
+                            <path d="M4.506 12.49L4.49927 12.49" stroke="#626262" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                           </svg>
                         </div>
                         <div><h1>Room</h1></div>
@@ -145,14 +145,14 @@ export default function RoomListing() {
                           <path d="M1 3.19607C3.625 5.76984 7.43162 4.6668 8.29933 3.19607C8.42695 2.97975 8.5 2.7286 8.5 2.46071C8.5 1.64846 7.82843 0.98999 7 0.98999C6.17157 0.98999 5.5 1.64846 5.5 2.46071" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" />
                           <path d="M12.25 5.43609C12.25 4.22322 13.0895 3.23999 14.125 3.23999C15.1605 3.23999 16 4.22322 16 5.43609C16 5.97389 15.835 6.46653 15.561 6.84833C14.0097 9.38363 6.4573 8.42728 2.5 7.6322" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" />
                           <path d="M9.31403 13.6555C9.46847 14.1417 9.88518 14.49 10.375 14.49C10.9963 14.49 11.5 13.9296 11.5 13.2382C11.5 13.0032 11.4418 12.7833 11.3405 12.5953C10.3749 10.7343 5.49997 9.48292 1 12.821" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" />
-                          <path d="M13.75 10.365H15.25" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
+                          <path d="M13.75 10.365H15.25" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
                         </svg></div>
                         <div><h1>Air condition</h1></div>
                       </div>
                       <div className='flex items-center gap-2'>
                         <div><svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" viewBox="0 0 15 13" fill="none">
                           <path d="M3.75 11.74L3.125 12.365M11.25 11.74L11.875 12.365" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" />
-                          <path d="M1.875 6.73999V7.36499C1.875 9.42738 1.875 10.4586 2.5157 11.0993C3.15641 11.74 4.18761 11.74 6.25 11.74H8.75C10.8124 11.74 11.8436 11.74 12.4843 11.0993C13.125 10.4586 13.125 9.42738 13.125 7.36499V6.73999" stroke="#626262" strokeWidth="0.75" strokeLinecap="round" stroke-linejoin="round" />
+                          <path d="M1.875 6.73999V7.36499C1.875 9.42738 1.875 10.4586 2.5157 11.0993C3.15641 11.74 4.18761 11.74 6.25 11.74H8.75C10.8124 11.74 11.8436 11.74 12.4843 11.0993C13.125 10.4586 13.125 9.42738 13.125 7.36499V6.73999" stroke="#626262" strokeWidth="0.75" strokeLinecap="round" strokeLinejoin="round" />
                           <path d="M1.25 6.73999L13.75 6.73999" stroke="#626262" strokeWidth="0.75" strokeLinecap="round" />
                           <path d="M2.5 6.73999V2.69212C2.5 1.82109 3.2061 1.11499 4.07713 1.11499C4.77604 1.11499 5.39159 1.57498 5.58962 2.24524L5.625 2.36499" stroke="#626262" strokeWidth="0.75" strokeLinecap="round" />
                           <path d="M5 2.98999L6.5625 1.73999" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" />
@@ -167,7 +167,7 @@ export default function RoomListing() {
                         <div><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
   <path d="M1.375 7.98999C1.375 10.1113 1.375 11.172 2.03401 11.831C2.69302 12.49 3.75368 12.49 5.875 12.49H11.125C13.2463 12.49 14.307 12.49 14.966 11.831C15.625 11.172 15.625 10.1113 15.625 7.98999V5.73999C15.625 3.61867 15.625 2.55801 14.966 1.899C14.307 1.23999 13.2463 1.23999 11.125 1.23999H5.875C3.75368 1.23999 2.69302 1.23999 2.03401 1.899C1.375 2.55801 1.375 3.61867 1.375 5.73999V7.98999Z" stroke="#626262" strokeWidth="1.125"/>
   <path d="M7.9375 16.24C7.9375 16.5507 8.18934 16.8025 8.5 16.8025C8.81066 16.8025 9.0625 16.5507 9.0625 16.24L7.9375 16.24ZM8.5 12.49L7.9375 12.49L7.9375 16.24L8.5 16.24L9.0625 16.24L9.0625 12.49L8.5 12.49Z" fill="#626262"/>
-  <path d="M4.75 16.24L8.50005 13.99L12.25 16.24" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round"/>
+  <path d="M4.75 16.24L8.50005 13.99L12.25 16.24" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round"/>
 </svg></div>
                         <div><h1>TV</h1></div>
                       </div>
@@ -175,7 +175,7 @@ export default function RoomListing() {
                         <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
   <path d="M0.875 7.73999C0.875 4.38123 0.875 2.70185 1.91843 1.65842C2.96186 0.61499 4.64124 0.61499 8 0.61499C11.3588 0.61499 13.0381 0.61499 14.0816 1.65842C15.125 2.70185 15.125 4.38123 15.125 7.73999C15.125 11.0987 15.125 12.7781 14.0816 13.8216C13.0381 14.865 11.3588 14.865 8 14.865C4.64124 14.865 2.96186 14.865 1.91843 13.8216C0.875 12.7781 0.875 11.0987 0.875 7.73999Z" stroke="#626262" strokeWidth="1.125"/>
   <path d="M5 6.47516C5.86163 5.85208 6.89065 5.48999 7.99592 5.48999C9.10468 5.48999 10.1367 5.85437 11 6.48107M9.63069 8.48999C9.13862 8.21724 8.58343 8.06378 7.99592 8.06378C7.41137 8.06378 6.85881 8.2157 6.36858 8.48589" stroke="#626262" strokeWidth="1.125" strokeLinecap="round"/>
-  <path d="M8 10.74H8.00476" stroke="#626262" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round"/>
+  <path d="M8 10.74H8.00476" stroke="#626262" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg></div>
                         <div><h1>WIFI</h1></div>
                       </div>
@@ -241,14 +241,14 @@ export default function RoomListing() {
                         </div>
                         <div className='flex items-center gap-2'>
                           <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                            <path d="M16 11.865H1" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
-                            <path d="M16 14.49V10.74C16 9.32578 16 8.61867 15.5607 8.17933C15.1213 7.73999 14.4142 7.73999 13 7.73999H4C2.58579 7.73999 1.87868 7.73999 1.43934 8.17933C1 8.61867 1 9.32578 1 10.74V14.49" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
+                            <path d="M16 11.865H1" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
+                            <path d="M16 14.49V10.74C16 9.32578 16 8.61867 15.5607 8.17933C15.1213 7.73999 14.4142 7.73999 13 7.73999H4C2.58579 7.73999 1.87868 7.73999 1.43934 8.17933C1 8.61867 1 9.32578 1 10.74V14.49" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
                             <path d="M11.5 7.73999V6.70335C11.5 6.32271 11.4313 6.1954 11.0797 6.04537C10.3473 5.73291 9.45838 5.48999 8.5 5.48999C7.54162 5.48999 6.65266 5.73291 5.9203 6.04537C5.56865 6.1954 5.5 6.32271 5.5 6.70335L5.5 7.73999" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" />
                             <path d="M14.5 7.73999V4.26042C14.5 3.74168 14.5 3.48232 14.3719 3.23738C14.2438 2.99245 14.0613 2.86567 13.6963 2.61211C12.2246 1.58982 10.4329 0.98999 8.5 0.98999C6.56711 0.98999 4.77543 1.58982 3.30372 2.61211C2.93869 2.86567 2.75618 2.99245 2.62809 3.23738C2.5 3.48232 2.5 3.74168 2.5 4.26042V7.73999" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" />
                           </svg>
                           <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                            <path d="M16 11.865H1" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
-                            <path d="M16 14.49V10.74C16 9.32578 16 8.61867 15.5607 8.17933C15.1213 7.73999 14.4142 7.73999 13 7.73999H4C2.58579 7.73999 1.87868 7.73999 1.43934 8.17933C1 8.61867 1 9.32578 1 10.74V14.49" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
+                            <path d="M16 11.865H1" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
+                            <path d="M16 14.49V10.74C16 9.32578 16 8.61867 15.5607 8.17933C15.1213 7.73999 14.4142 7.73999 13 7.73999H4C2.58579 7.73999 1.87868 7.73999 1.43934 8.17933C1 8.61867 1 9.32578 1 10.74V14.49" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
                             <path d="M11.5 7.73999V6.70335C11.5 6.32271 11.4313 6.1954 11.0797 6.04537C10.3473 5.73291 9.45838 5.48999 8.5 5.48999C7.54162 5.48999 6.65266 5.73291 5.9203 6.04537C5.56865 6.1954 5.5 6.32271 5.5 6.70335L5.5 7.73999" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" />
                             <path d="M14.5 7.73999V4.26042C14.5 3.74168 14.5 3.48232 14.3719 3.23738C14.2438 2.99245 14.0613 2.86567 13.6963 2.61211C12.2246 1.58982 10.4329 0.98999 8.5 0.98999C6.56711 0.98999 4.77543 1.58982 3.30372 2.61211C2.93869 2.86567 2.75618 2.99245 2.62809 3.23738C2.5 3.48232 2.5 3.74168 2.5 4.26042V7.73999" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" />
                           </svg>
@@ -260,11 +260,11 @@ export default function RoomListing() {
                       <div className='flex items-center gap-2'>
                         <div>
                           <svg xmlns="http://www.w3.org/2000/svg" width="15" height="17" viewBox="0 0 15 17" fill="none">
-                            <path d="M2.25 16.24V5.73999C2.25 3.61867 2.25 2.55801 2.90901 1.899C3.56802 1.23999 4.62868 1.23999 6.75 1.23999H8.25C10.3713 1.23999 11.432 1.23999 12.091 1.899C12.75 2.55801 12.75 3.61867 12.75 5.73999V16.24H2.25Z" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
-                            <path d="M4.5 7.98999V4.98999C4.5 3.74899 4.759 3.48999 6 3.48999H9C10.241 3.48999 10.5 3.74899 10.5 4.98999V7.98999C10.5 9.23099 10.241 9.48999 9 9.48999H6C4.759 9.48999 4.5 9.23099 4.5 7.98999Z" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
-                            <path d="M0.75 16.24H14.25" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
-                            <path d="M7.5 3.48999V9.48999M10.5 6.48999L4.5 6.48999" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
-                            <path d="M4.506 12.49L4.49927 12.49" stroke="#626262" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round" />
+                            <path d="M2.25 16.24V5.73999C2.25 3.61867 2.25 2.55801 2.90901 1.899C3.56802 1.23999 4.62868 1.23999 6.75 1.23999H8.25C10.3713 1.23999 11.432 1.23999 12.091 1.899C12.75 2.55801 12.75 3.61867 12.75 5.73999V16.24H2.25Z" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
+                            <path d="M4.5 7.98999V4.98999C4.5 3.74899 4.759 3.48999 6 3.48999H9C10.241 3.48999 10.5 3.74899 10.5 4.98999V7.98999C10.5 9.23099 10.241 9.48999 9 9.48999H6C4.759 9.48999 4.5 9.23099 4.5 7.98999Z" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
+                            <path d="M0.75 16.24H14.25" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
+                            <path d="M7.5 3.48999V9.48999M10.5 6.48999L4.5 6.48999" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
+                            <path d="M4.506 12.49L4.49927 12.49" stroke="#626262" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                           </svg>
                         </div>
                         <div><h1>Room</h1></div>
@@ -287,14 +287,14 @@ export default function RoomListing() {
                           <path d="M1 3.19607C3.625 5.76984 7.43162 4.6668 8.29933 3.19607C8.42695 2.97975 8.5 2.7286 8.5 2.46071C8.5 1.64846 7.82843 0.98999 7 0.98999C6.17157 0.98999 5.5 1.64846 5.5 2.46071" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" />
                           <path d="M12.25 5.43609C12.25 4.22322 13.0895 3.23999 14.125 3.23999C15.1605 3.23999 16 4.22322 16 5.43609C16 5.97389 15.835 6.46653 15.561 6.84833C14.0097 9.38363 6.4573 8.42728 2.5 7.6322" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" />
                           <path d="M9.31403 13.6555C9.46847 14.1417 9.88518 14.49 10.375 14.49C10.9963 14.49 11.5 13.9296 11.5 13.2382C11.5 13.0032 11.4418 12.7833 11.3405 12.5953C10.3749 10.7343 5.49997 9.48292 1 12.821" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" />
-                          <path d="M13.75 10.365H15.25" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
+                          <path d="M13.75 10.365H15.25" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
                         </svg></div>
                         <div><h1>Air condition</h1></div>
                       </div>
                       <div className='flex items-center gap-2'>
                         <div><svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" viewBox="0 0 15 13" fill="none">
                           <path d="M3.75 11.74L3.125 12.365M11.25 11.74L11.875 12.365" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" />
-                          <path d="M1.875 6.73999V7.36499C1.875 9.42738 1.875 10.4586 2.5157 11.0993C3.15641 11.74 4.18761 11.74 6.25 11.74H8.75C10.8124 11.74 11.8436 11.74 12.4843 11.0993C13.125 10.4586 13.125 9.42738 13.125 7.36499V6.73999" stroke="#626262" strokeWidth="0.75" strokeLinecap="round" stroke-linejoin="round" />
+                          <path d="M1.875 6.73999V7.36499C1.875 9.42738 1.875 10.4586 2.5157 11.0993C3.15641 11.74 4.18761 11.74 6.25 11.74H8.75C10.8124 11.74 11.8436 11.74 12.4843 11.0993C13.125 10.4586 13.125 9.42738 13.125 7.36499V6.73999" stroke="#626262" strokeWidth="0.75" strokeLinecap="round" strokeLinejoin="round" />
                           <path d="M1.25 6.73999L13.75 6.73999" stroke="#626262" strokeWidth="0.75" strokeLinecap="round" />
                           <path d="M2.5 6.73999V2.69212C2.5 1.82109 3.2061 1.11499 4.07713 1.11499C4.77604 1.11499 5.39159 1.57498 5.58962 2.24524L5.625 2.36499" stroke="#626262" strokeWidth="0.75" strokeLinecap="round" />
                           <path d="M5 2.98999L6.5625 1.73999" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" />
@@ -309,7 +309,7 @@ export default function RoomListing() {
                         <div><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
   <path d="M1.375 7.98999C1.375 10.1113 1.375 11.172 2.03401 11.831C2.69302 12.49 3.75368 12.49 5.875 12.49H11.125C13.2463 12.49 14.307 12.49 14.966 11.831C15.625 11.172 15.625 10.1113 15.625 7.98999V5.73999C15.625 3.61867 15.625 2.55801 14.966 1.899C14.307 1.23999 13.2463 1.23999 11.125 1.23999H5.875C3.75368 1.23999 2.69302 1.23999 2.03401 1.899C1.375 2.55801 1.375 3.61867 1.375 5.73999V7.98999Z" stroke="#626262" strokeWidth="1.125"/>
   <path d="M7.9375 16.24C7.9375 16.5507 8.18934 16.8025 8.5 16.8025C8.81066 16.8025 9.0625 16.5507 9.0625 16.24L7.9375 16.24ZM8.5 12.49L7.9375 12.49L7.9375 16.24L8.5 16.24L9.0625 16.24L9.0625 12.49L8.5 12.49Z" fill="#626262"/>
-  <path d="M4.75 16.24L8.50005 13.99L12.25 16.24" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round"/>
+  <path d="M4.75 16.24L8.50005 13.99L12.25 16.24" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round"/>
 </svg></div>
                         <div><h1>TV</h1></div>
                       </div>
@@ -317,7 +317,7 @@ export default function RoomListing() {
                         <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
   <path d="M0.875 7.73999C0.875 4.38123 0.875 2.70185 1.91843 1.65842C2.96186 0.61499 4.64124 0.61499 8 0.61499C11.3588 0.61499 13.0381 0.61499 14.0816 1.65842C15.125 2.70185 15.125 4.38123 15.125 7.73999C15.125 11.0987 15.125 12.7781 14.0816 13.8216C13.0381 14.865 11.3588 14.865 8 14.865C4.64124 14.865 2.96186 14.865 1.91843 13.8216C0.875 12.7781 0.875 11.0987 0.875 7.73999Z" stroke="#626262" strokeWidth="1.125"/>
   <path d="M5 6.47516C5.86163 5.85208 6.89065 5.48999 7.99592 5.48999C9.10468 5.48999 10.1367 5.85437 11 6.48107M9.63069 8.48999C9.13862 8.21724 8.58343 8.06378 7.99592 8.06378C7.41137 8.06378 6.85881 8.2157 6.36858 8.48589" stroke="#626262" strokeWidth="1.125" strokeLinecap="round"/>
-  <path d="M8 10.74H8.00476" stroke="#626262" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round"/>
+  <path d="M8 10.74H8.00476" stroke="#626262" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg></div>
                         <div><h1>WIFI</h1></div>
                       </div>
@@ -381,14 +381,14 @@ export default function RoomListing() {
                         </div>
                         <div className='flex items-center gap-2'>
                           <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                            <path d="M16 11.865H1" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
-                            <path d="M16 14.49V10.74C16 9.32578 16 8.61867 15.5607 8.17933C15.1213 7.73999 14.4142 7.73999 13 7.73999H4C2.58579 7.73999 1.87868 7.73999 1.43934 8.17933C1 8.61867 1 9.32578 1 10.74V14.49" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
+                            <path d="M16 11.865H1" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
+                            <path d="M16 14.49V10.74C16 9.32578 16 8.61867 15.5607 8.17933C15.1213 7.73999 14.4142 7.73999 13 7.73999H4C2.58579 7.73999 1.87868 7.73999 1.43934 8.17933C1 8.61867 1 9.32578 1 10.74V14.49" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
                             <path d="M11.5 7.73999V6.70335C11.5 6.32271 11.4313 6.1954 11.0797 6.04537C10.3473 5.73291 9.45838 5.48999 8.5 5.48999C7.54162 5.48999 6.65266 5.73291 5.9203 6.04537C5.56865 6.1954 5.5 6.32271 5.5 6.70335L5.5 7.73999" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" />
                             <path d="M14.5 7.73999V4.26042C14.5 3.74168 14.5 3.48232 14.3719 3.23738C14.2438 2.99245 14.0613 2.86567 13.6963 2.61211C12.2246 1.58982 10.4329 0.98999 8.5 0.98999C6.56711 0.98999 4.77543 1.58982 3.30372 2.61211C2.93869 2.86567 2.75618 2.99245 2.62809 3.23738C2.5 3.48232 2.5 3.74168 2.5 4.26042V7.73999" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" />
                           </svg>
                           <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                            <path d="M16 11.865H1" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
-                            <path d="M16 14.49V10.74C16 9.32578 16 8.61867 15.5607 8.17933C15.1213 7.73999 14.4142 7.73999 13 7.73999H4C2.58579 7.73999 1.87868 7.73999 1.43934 8.17933C1 8.61867 1 9.32578 1 10.74V14.49" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
+                            <path d="M16 11.865H1" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
+                            <path d="M16 14.49V10.74C16 9.32578 16 8.61867 15.5607 8.17933C15.1213 7.73999 14.4142 7.73999 13 7.73999H4C2.58579 7.73999 1.87868 7.73999 1.43934 8.17933C1 8.61867 1 9.32578 1 10.74V14.49" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
                             <path d="M11.5 7.73999V6.70335C11.5 6.32271 11.4313 6.1954 11.0797 6.04537C10.3473 5.73291 9.45838 5.48999 8.5 5.48999C7.54162 5.48999 6.65266 5.73291 5.9203 6.04537C5.56865 6.1954 5.5 6.32271 5.5 6.70335L5.5 7.73999" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" />
                             <path d="M14.5 7.73999V4.26042C14.5 3.74168 14.5 3.48232 14.3719 3.23738C14.2438 2.99245 14.0613 2.86567 13.6963 2.61211C12.2246 1.58982 10.4329 0.98999 8.5 0.98999C6.56711 0.98999 4.77543 1.58982 3.30372 2.61211C2.93869 2.86567 2.75618 2.99245 2.62809 3.23738C2.5 3.48232 2.5 3.74168 2.5 4.26042V7.73999" stroke="#141B34" strokeWidth="1.125" strokeLinecap="round" />
                           </svg>
@@ -400,11 +400,11 @@ export default function RoomListing() {
                       <div className='flex items-center gap-2'>
                         <div>
                           <svg xmlns="http://www.w3.org/2000/svg" width="15" height="17" viewBox="0 0 15 17" fill="none">
-                            <path d="M2.25 16.24V5.73999C2.25 3.61867 2.25 2.55801 2.90901 1.899C3.56802 1.23999 4.62868 1.23999 6.75 1.23999H8.25C10.3713 1.23999 11.432 1.23999 12.091 1.899C12.75 2.55801 12.75 3.61867 12.75 5.73999V16.24H2.25Z" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
-                            <path d="M4.5 7.98999V4.98999C4.5 3.74899 4.759 3.48999 6 3.48999H9C10.241 3.48999 10.5 3.74899 10.5 4.98999V7.98999C10.5 9.23099 10.241 9.48999 9 9.48999H6C4.759 9.48999 4.5 9.23099 4.5 7.98999Z" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
-                            <path d="M0.75 16.24H14.25" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
-                            <path d="M7.5 3.48999V9.48999M10.5 6.48999L4.5 6.48999" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
-                            <path d="M4.506 12.49L4.49927 12.49" stroke="#626262" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round" />
+                            <path d="M2.25 16.24V5.73999C2.25 3.61867 2.25 2.55801 2.90901 1.899C3.56802 1.23999 4.62868 1.23999 6.75 1.23999H8.25C10.3713 1.23999 11.432 1.23999 12.091 1.899C12.75 2.55801 12.75 3.61867 12.75 5.73999V16.24H2.25Z" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
+                            <path d="M4.5 7.98999V4.98999C4.5 3.74899 4.759 3.48999 6 3.48999H9C10.241 3.48999 10.5 3.74899 10.5 4.98999V7.98999C10.5 9.23099 10.241 9.48999 9 9.48999H6C4.759 9.48999 4.5 9.23099 4.5 7.98999Z" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
+                            <path d="M0.75 16.24H14.25" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
+                            <path d="M7.5 3.48999V9.48999M10.5 6.48999L4.5 6.48999" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
+                            <path d="M4.506 12.49L4.49927 12.49" stroke="#626262" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                           </svg>
                         </div>
                         <div><h1>Room</h1></div>
@@ -427,14 +427,14 @@ export default function RoomListing() {
                           <path d="M1 3.19607C3.625 5.76984 7.43162 4.6668 8.29933 3.19607C8.42695 2.97975 8.5 2.7286 8.5 2.46071C8.5 1.64846 7.82843 0.98999 7 0.98999C6.17157 0.98999 5.5 1.64846 5.5 2.46071" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" />
                           <path d="M12.25 5.43609C12.25 4.22322 13.0895 3.23999 14.125 3.23999C15.1605 3.23999 16 4.22322 16 5.43609C16 5.97389 15.835 6.46653 15.561 6.84833C14.0097 9.38363 6.4573 8.42728 2.5 7.6322" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" />
                           <path d="M9.31403 13.6555C9.46847 14.1417 9.88518 14.49 10.375 14.49C10.9963 14.49 11.5 13.9296 11.5 13.2382C11.5 13.0032 11.4418 12.7833 11.3405 12.5953C10.3749 10.7343 5.49997 9.48292 1 12.821" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" />
-                          <path d="M13.75 10.365H15.25" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round" />
+                          <path d="M13.75 10.365H15.25" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round" />
                         </svg></div>
                         <div><h1>Air condition</h1></div>
                       </div>
                       <div className='flex items-center gap-2'>
                         <div><svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" viewBox="0 0 15 13" fill="none">
                           <path d="M3.75 11.74L3.125 12.365M11.25 11.74L11.875 12.365" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" />
-                          <path d="M1.875 6.73999V7.36499C1.875 9.42738 1.875 10.4586 2.5157 11.0993C3.15641 11.74 4.18761 11.74 6.25 11.74H8.75C10.8124 11.74 11.8436 11.74 12.4843 11.0993C13.125 10.4586 13.125 9.42738 13.125 7.36499V6.73999" stroke="#626262" strokeWidth="0.75" strokeLinecap="round" stroke-linejoin="round" />
+                          <path d="M1.875 6.73999V7.36499C1.875 9.42738 1.875 10.4586 2.5157 11.0993C3.15641 11.74 4.18761 11.74 6.25 11.74H8.75C10.8124 11.74 11.8436 11.74 12.4843 11.0993C13.125 10.4586 13.125 9.42738 13.125 7.36499V6.73999" stroke="#626262" strokeWidth="0.75" strokeLinecap="round" strokeLinejoin="round" />
                           <path d="M1.25 6.73999L13.75 6.73999" stroke="#626262" strokeWidth="0.75" strokeLinecap="round" />
                           <path d="M2.5 6.73999V2.69212C2.5 1.82109 3.2061 1.11499 4.07713 1.11499C4.77604 1.11499 5.39159 1.57498 5.58962 2.24524L5.625 2.36499" stroke="#626262" strokeWidth="0.75" strokeLinecap="round" />
                           <path d="M5 2.98999L6.5625 1.73999" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" />
@@ -449,7 +449,7 @@ export default function RoomListing() {
                         <div><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
   <path d="M1.375 7.98999C1.375 10.1113 1.375 11.172 2.03401 11.831C2.69302 12.49 3.75368 12.49 5.875 12.49H11.125C13.2463 12.49 14.307 12.49 14.966 11.831C15.625 11.172 15.625 10.1113 15.625 7.98999V5.73999C15.625 3.61867 15.625 2.55801 14.966 1.899C14.307 1.23999 13.2463 1.23999 11.125 1.23999H5.875C3.75368 1.23999 2.69302 1.23999 2.03401 1.899C1.375 2.55801 1.375 3.61867 1.375 5.73999V7.98999Z" stroke="#626262" strokeWidth="1.125"/>
   <path d="M7.9375 16.24C7.9375 16.5507 8.18934 16.8025 8.5 16.8025C8.81066 16.8025 9.0625 16.5507 9.0625 16.24L7.9375 16.24ZM8.5 12.49L7.9375 12.49L7.9375 16.24L8.5 16.24L9.0625 16.24L9.0625 12.49L8.5 12.49Z" fill="#626262"/>
-  <path d="M4.75 16.24L8.50005 13.99L12.25 16.24" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" stroke-linejoin="round"/>
+  <path d="M4.75 16.24L8.50005 13.99L12.25 16.24" stroke="#626262" strokeWidth="1.125" strokeLinecap="round" strokeLinejoin="round"/>
 </svg></div>
                         <div><h1>TV</h1></div>
                       </div>
@@ -457,7 +457,7 @@ export default function RoomListing() {
                         <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
   <path d="M0.875 7.73999C0.875 4.38123 0.875 2.70185 1.91843 1.65842C2.96186 0.61499 4.64124 0.61499 8 0.61499C11.3588 0.61499 13.0381 0.61499 14.0816 1.65842C15.125 2.70185 15.125 4.38123 15.125 7.73999C15.125 11.0987 15.125 12.7781 14.0816 13.8216C13.0381 14.865 11.3588 14.865 8 14.865C4.64124 14.865 2.96186 14.865 1.91843 13.8216C0.875 12.7781 0.875 11.0987 0.875 7.73999Z" stroke="#626262" strokeWidth="1.125"/>
   <path d="M5 6.47516C5.86163 5.85208 6.89065 5.48999 7.99592 5.48999C9.10468 5.48999 10.1367 5.85437 11 6.48107M9.63069 8.48999C9.13862 8.21724 8.58343 8.06378 7.99592 8.06378C7.41137 8.06378 6.85881 8.2157 6.36858 8.48589" stroke="#626262" strokeWidth="1.125" strokeLinecap="round"/>
-  <path d="M8 10.74H8.00476" stroke="#626262" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round"/>
+  <path d="M8 10.74H8.00476" stroke="#626262" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg></div>
                         <div><h1>WIFI</h1></div>
                       </div>

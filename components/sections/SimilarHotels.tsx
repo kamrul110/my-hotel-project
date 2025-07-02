@@ -142,11 +142,11 @@ const HotelCard: React.FC<{ hotel: HotelProps }> = ({ hotel }) => {
           <div className='flex space-x-2 '>
              <div>
              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="19" viewBox="0 0 17 19" fill="none">
-              <path d="M2.7709 18.2545V6.29614C2.7709 3.88019 2.7709 2.67222 3.52144 1.92168C4.27197 1.17114 5.47995 1.17114 7.8959 1.17114H9.60423C12.0202 1.17114 13.2282 1.17114 13.9787 1.92168C14.7292 2.67222 14.7292 3.88019 14.7292 6.29614V18.2545H2.7709Z" stroke="#626262" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M5.3334 8.85864V5.44198C5.3334 4.02861 5.62837 3.73364 7.04173 3.73364H10.4584C11.8718 3.73364 12.1667 4.02861 12.1667 5.44198V8.85864C12.1667 10.272 11.8718 10.567 10.4584 10.567H7.04173C5.62837 10.567 5.3334 10.272 5.3334 8.85864Z" stroke="#626262" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M1.06256 18.2546H16.4376" stroke="#626262" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M8.75006 3.73364V10.567M12.1667 7.15031L5.3334 7.15031" stroke="#626262" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M5.34023 13.9836L5.33256 13.9836" stroke="#626262" stroke-width="1.70833" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M2.7709 18.2545V6.29614C2.7709 3.88019 2.7709 2.67222 3.52144 1.92168C4.27197 1.17114 5.47995 1.17114 7.8959 1.17114H9.60423C12.0202 1.17114 13.2282 1.17114 13.9787 1.92168C14.7292 2.67222 14.7292 3.88019 14.7292 6.29614V18.2545H2.7709Z" stroke="#626262" stroke-linecap="round" strokeLinejoin="round" />
+              <path d="M5.3334 8.85864V5.44198C5.3334 4.02861 5.62837 3.73364 7.04173 3.73364H10.4584C11.8718 3.73364 12.1667 4.02861 12.1667 5.44198V8.85864C12.1667 10.272 11.8718 10.567 10.4584 10.567H7.04173C5.62837 10.567 5.3334 10.272 5.3334 8.85864Z" stroke="#626262" stroke-linecap="round" strokeLinejoin="round" />
+              <path d="M1.06256 18.2546H16.4376" stroke="#626262" stroke-linecap="round" strokeLinejoin="round" />
+              <path d="M8.75006 3.73364V10.567M12.1667 7.15031L5.3334 7.15031" stroke="#626262" stroke-linecap="round" strokeLinejoin="round" />
+              <path d="M5.34023 13.9836L5.33256 13.9836" stroke="#626262" stroke-width="1.70833" stroke-linecap="round" strokeLinejoin="round" />
             </svg>
            </div>
             <div>
@@ -158,7 +158,7 @@ const HotelCard: React.FC<{ hotel: HotelProps }> = ({ hotel }) => {
           <span className="flex items-center  ">
           <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17" fill="none">
   <path d="M4.25007 15.3794L3.41673 16.2127M14.2501 15.3794L15.0834 16.2127" stroke="#626262" stroke-width="1.5" stroke-linecap="round"/>
-  <path d="M1.75006 8.71289V9.54622C1.75006 12.2961 1.75006 13.671 2.60433 14.5253C3.4586 15.3796 4.83353 15.3796 7.58339 15.3796H10.9167C13.6666 15.3796 15.0415 15.3796 15.8958 14.5253C16.7501 13.671 16.7501 12.2961 16.7501 9.54622V8.71289" stroke="#626262" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1.75006 8.71289V9.54622C1.75006 12.2961 1.75006 13.671 2.60433 14.5253C3.4586 15.3796 4.83353 15.3796 7.58339 15.3796H10.9167C13.6666 15.3796 15.0415 15.3796 15.8958 14.5253C16.7501 13.671 16.7501 12.2961 16.7501 9.54622V8.71289" stroke="#626262" stroke-linecap="round" strokeLinejoin="round"/>
   <path d="M0.916733 8.71289H17.5834" stroke="#626262" stroke-linecap="round"/>
   <path d="M2.58339 8.71289V3.31573C2.58339 2.15436 3.52486 1.21289 4.68623 1.21289C5.6181 1.21289 6.43884 1.82621 6.70288 2.7199L6.75006 2.87956" stroke="#626262" stroke-linecap="round"/>
   <path d="M5.91673 3.71281L8.00007 2.04614" stroke="#626262" stroke-width="1.5" stroke-linecap="round"/>
