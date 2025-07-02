@@ -46,8 +46,12 @@ export default function HotelHero() {
 
 
             </div>
-            <button className="bg-[#007DD0] px-4 md:px-6 py-2  text-sm md:text-base rounded-full text-white">
-              Reserve →
+            <button className="bg-[#007DD0] px-4 md:px-6 py-2 text-sm md:text-base rounded-full text-white flex flex-col md:flex-row items-center space-y-1 md:space-y-0 md:space-x-2">
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 md:w-6 md:h-5" viewBox="0 0 23 22" fill="none">
+                <path d="M21.4598 9.97072C21.5134 10.8009 21.5134 11.6607 21.4598 12.4909C21.1856 16.7332 17.8536 20.1125 13.6706 20.3905C12.2435 20.4854 10.7536 20.4852 9.3294 20.3905C8.83896 20.3579 8.3044 20.2409 7.84401 20.0513C7.33177 19.8403 7.0756 19.7348 6.94544 19.7508C6.81527 19.7668 6.6264 19.9061 6.24868 20.1846C5.58268 20.6757 4.74367 21.0285 3.49943 20.9982C2.87026 20.9829 2.55568 20.9752 2.41484 20.7351C2.27401 20.495 2.44941 20.1626 2.80021 19.4978C3.28674 18.5758 3.59501 17.5203 3.12791 16.6746C2.32343 15.4666 1.6401 14.036 1.54024 12.4909C1.48659 11.6607 1.48659 10.8009 1.54024 9.97072C1.81441 5.72838 5.14639 2.34913 9.3294 2.07107C10.5318 1.99114 10.7812 1.97856 12 2.03368" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M21.5 4.5C21.5 6.433 19.933 8 18 8C16.067 8 14.5 6.433 14.5 4.5C14.5 2.567 16.067 1 18 1C19.933 1 21.5 2.567 21.5 4.5Z" stroke="white" strokeWidth="1.5" />
+              </svg>
+              <span className="text-xs md:text-sm">Message</span>
             </button>
           </div>
         </div>
@@ -140,31 +144,44 @@ export default function HotelHero() {
           {/* Left Content */}
           <div className="flex-1 lg:w-2/3">
             {/* Tabs */}
-            <div className="flex items-center mb-6 overflow-x-auto">
-              <div className="flex space-x-4 min-w-max">
-                {tabs.map((tab) => (
-                  <button
-                    key={tab}
-                    onClick={() => setActiveTab(tab)}
-                    className={`px-4 py-2 text-sm md:text-base font-medium border-b-2 transition-colors whitespace-nowrap ${activeTab === tab
-                        ? 'border-blue-600 text-blue-600'
-                        : 'border-transparent text-gray-600 hover:text-gray-900'
-                      }`}
-                  >
-                    {tab}
-                  </button>
-                ))}
-              </div>
-              <button className="bg-[#007DD0] text-white px-3 md:px-4 py-2 rounded-full text-xs md:text-sm ml-4 flex items-center space-x-2">
-                {/* svg-3 */}
-                <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 md:w-6 md:h-5" viewBox="0 0 23 22" fill="none">
-                  <path d="M21.4598 9.97072C21.5134 10.8009 21.5134 11.6607 21.4598 12.4909C21.1856 16.7332 17.8536 20.1125 13.6706 20.3905C12.2435 20.4854 10.7536 20.4852 9.3294 20.3905C8.83896 20.3579 8.3044 20.2409 7.84401 20.0513C7.33177 19.8403 7.0756 19.7348 6.94544 19.7508C6.81527 19.7668 6.6264 19.9061 6.24868 20.1846C5.58268 20.6757 4.74367 21.0285 3.49943 20.9982C2.87026 20.9829 2.55568 20.9752 2.41484 20.7351C2.27401 20.495 2.44941 20.1626 2.80021 19.4978C3.28674 18.5758 3.59501 17.5203 3.12791 16.6746C2.32343 15.4666 1.6401 14.036 1.54024 12.4909C1.48659 11.6607 1.48659 10.8009 1.54024 9.97072C1.81441 5.72838 5.14639 2.34913 9.3294 2.07107C10.5318 1.99114 10.7812 1.97856 12 2.03368" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M21.5 4.5C21.5 6.433 19.933 8 18 8C16.067 8 14.5 6.433 14.5 4.5C14.5 2.567 16.067 1 18 1C19.933 1 21.5 2.567 21.5 4.5Z" stroke="white" strokeWidth="1.5" />
-                </svg>
-
-                <span className=" md:inline">Message</span>
-              </button>
-            </div>
+           {/* Tabs */}
+<div className="mb-6 ">
+  {/* Tabs row */}
+  <div className="flex items-center  overflow-x-auto mb-4 md:mb-0 ">
+    <div className="flex space-x-4 min-w-max">
+      {tabs.map((tab) => (
+        <button
+          key={tab}
+          onClick={() => setActiveTab(tab)}
+          className={`px-4 py-2 text-sm md:text-base font-medium border-b-2 transition-colors whitespace-nowrap ${activeTab === tab
+              ? 'border-blue-600 text-blue-600'
+              : 'border-transparent text-gray-600 hover:text-gray-900'
+            }`}
+        >
+          {tab}
+        </button>
+      ))}
+    </div>
+    
+    {/* Desktop Message Button - same line as tabs */}
+    <button className="hidden md:flex bg-[#007DD0] text-white px-3 md:px-4 py-2 rounded-full text-xs md:text-sm ml-4 items-center space-x-2">
+      <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 md:w-6 md:h-5" viewBox="0 0 23 22" fill="none">
+        <path d="M21.4598 9.97072C21.5134 10.8009 21.5134 11.6607 21.4598 12.4909C21.1856 16.7332 17.8536 20.1125 13.6706 20.3905C12.2435 20.4854 10.7536 20.4852 9.3294 20.3905C8.83896 20.3579 8.3044 20.2409 7.84401 20.0513C7.33177 19.8403 7.0756 19.7348 6.94544 19.7508C6.81527 19.7668 6.6264 19.9061 6.24868 20.1846C5.58268 20.6757 4.74367 21.0285 3.49943 20.9982C2.87026 20.9829 2.55568 20.9752 2.41484 20.7351C2.27401 20.495 2.44941 20.1626 2.80021 19.4978C3.28674 18.5758 3.59501 17.5203 3.12791 16.6746C2.32343 15.4666 1.6401 14.036 1.54024 12.4909C1.48659 11.6607 1.48659 10.8009 1.54024 9.97072C1.81441 5.72838 5.14639 2.34913 9.3294 2.07107C10.5318 1.99114 10.7812 1.97856 12 2.03368" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M21.5 4.5C21.5 6.433 19.933 8 18 8C16.067 8 14.5 6.433 14.5 4.5C14.5 2.567 16.067 1 18 1C19.933 1 21.5 2.567 21.5 4.5Z" stroke="white" strokeWidth="1.5" />
+      </svg>
+      <span>Message</span>
+    </button>
+  </div>
+  
+  {/* Mobile Message Button - separate line below tabs */}
+  <button className="md:hidden bg-[#007DD0] text-white px-4 py-2 rounded-full text-sm flex items-center space-x-2 w-full justify-center">
+    <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" viewBox="0 0 23 22" fill="none">
+      <path d="M21.4598 9.97072C21.5134 10.8009 21.5134 11.6607 21.4598 12.4909C21.1856 16.7332 17.8536 20.1125 13.6706 20.3905C12.2435 20.4854 10.7536 20.4852 9.3294 20.3905C8.83896 20.3579 8.3044 20.2409 7.84401 20.0513C7.33177 19.8403 7.0756 19.7348 6.94544 19.7508C6.81527 19.7668 6.6264 19.9061 6.24868 20.1846C5.58268 20.6757 4.74367 21.0285 3.49943 20.9982C2.87026 20.9829 2.55568 20.9752 2.41484 20.7351C2.27401 20.495 2.44941 20.1626 2.80021 19.4978C3.28674 18.5758 3.59501 17.5203 3.12791 16.6746C2.32343 15.4666 1.6401 14.036 1.54024 12.4909C1.48659 11.6607 1.48659 10.8009 1.54024 9.97072C1.81441 5.72838 5.14639 2.34913 9.3294 2.07107C10.5318 1.99114 10.7812 1.97856 12 2.03368" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M21.5 4.5C21.5 6.433 19.933 8 18 8C16.067 8 14.5 6.433 14.5 4.5C14.5 2.567 16.067 1 18 1C19.933 1 21.5 2.567 21.5 4.5Z" stroke="white" strokeWidth="1.5" />
+    </svg>
+    <span>Message</span>
+  </button>
+</div>
 
             {/* Tab Content */}
             {activeTab === 'Over View' && (
@@ -215,7 +232,7 @@ export default function HotelHero() {
                   <div>
                     <div className="flex gap-8  ">
                       <div className="flex items-center space-x-2 ">
-                        <div className='border-1 border-[#B8CDF9]  inline-block p-2 rounded-md '>
+                        <div className='md:border-1 lg:border-1 border-[#B8CDF9]  inline-block lg:p-2 md:p-2 rounded-md '>
                           <Image
                             src="/images/Wifi.svg"
                             alt="Spain Flag"
@@ -227,7 +244,7 @@ export default function HotelHero() {
                         <span className="text-gray-600">Wifi</span>
                       </div>
                       <div className="flex items-center space-x-2">
-                        <div className='border-1 border-[#B8CDF9] inline-block p-2 rounded-md '>
+                        <div className='md:border-1 lg:border-1 border-[#B8CDF9]  inline-block lg:p-2 md:p-2 rounded-md '>
                           <Image
                             src="/images/Dining.svg"
                             alt="Spain Flag"
