@@ -13,13 +13,13 @@ export default function RoomListing() {
       </div>
 
       {/* Search Form */}
-      <div className=" rounded-lg p-4 mb-6 border-2 border-[#A3D0EE] w-[80%]">
+      <div className=" rounded-lg p-4 mb-6 border-[1px] border-[#A3D0EE] w-[80%]">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 ">
           {/* Check-in */}
           <div className="space-y-2">
             <label className="text-sm font-medium text-gray-700">Check-In</label>
             <div className="mt-2 relative ">
-              <Calendar className="absolute left-3 top-1/2 transform -translate-y-1/2 text-white w-5 h-5 bg-blue-500 rounded-full p-1" />
+              <Calendar className="absolute left-3 top-1/2 transform -translate-y-1/2 text-white w-5 h-5 bg-[#007DD0] rounded-full p-1" />
               <input
                 type="text"
                 defaultValue="Tue,23 June 2024"
@@ -33,7 +33,7 @@ export default function RoomListing() {
           <div className="space-y-2">
             <label className="text-sm font-medium text-gray-700">Check-Out</label>
             <div className="mt-2 relative">
-              <Calendar className="absolute left-3 top-1/2 transform -translate-y-1/2  text-white w-5 h-5 bg-blue-500 rounded-full p-1" />
+              <Calendar className="absolute left-3 top-1/2 transform -translate-y-1/2  text-white w-5 h-5 bg-[#007DD0] rounded-full p-1" />
               <input
                 type="text"
                 defaultValue="Sat,29 June 2024"
@@ -48,7 +48,7 @@ export default function RoomListing() {
             <label className="text-sm font-medium text-gray-700">Room & Guest</label>
             <div className="mt-2 relative">
               <Home className="absolute left-3 top-1/2 transform -translate-y-1/2  
-               text-white w-5 h-5 bg-blue-500 rounded-full p-1
+               text-white w-5 h-5 bg-[#007DD0] rounded-full p-1
               " />
 
               <input

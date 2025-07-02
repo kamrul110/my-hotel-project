@@ -46,12 +46,14 @@ export default function HotelHero() {
 
 
             </div>
-            <button className="bg-[#007DD0] px-4 md:px-6 py-2 text-sm md:text-base rounded-full text-white flex flex-col md:flex-row items-center space-y-1 md:space-y-0 md:space-x-2">
-              <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 md:w-6 md:h-5" viewBox="0 0 23 22" fill="none">
-                <path d="M21.4598 9.97072C21.5134 10.8009 21.5134 11.6607 21.4598 12.4909C21.1856 16.7332 17.8536 20.1125 13.6706 20.3905C12.2435 20.4854 10.7536 20.4852 9.3294 20.3905C8.83896 20.3579 8.3044 20.2409 7.84401 20.0513C7.33177 19.8403 7.0756 19.7348 6.94544 19.7508C6.81527 19.7668 6.6264 19.9061 6.24868 20.1846C5.58268 20.6757 4.74367 21.0285 3.49943 20.9982C2.87026 20.9829 2.55568 20.9752 2.41484 20.7351C2.27401 20.495 2.44941 20.1626 2.80021 19.4978C3.28674 18.5758 3.59501 17.5203 3.12791 16.6746C2.32343 15.4666 1.6401 14.036 1.54024 12.4909C1.48659 11.6607 1.48659 10.8009 1.54024 9.97072C1.81441 5.72838 5.14639 2.34913 9.3294 2.07107C10.5318 1.99114 10.7812 1.97856 12 2.03368" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                <path d="M21.5 4.5C21.5 6.433 19.933 8 18 8C16.067 8 14.5 6.433 14.5 4.5C14.5 2.567 16.067 1 18 1C19.933 1 21.5 2.567 21.5 4.5Z" stroke="white" strokeWidth="1.5" />
-              </svg>
-              <span className="text-xs md:text-sm">Message</span>
+            <button className="bg-[#007DD0] px-4 md:px-6 py-2 text-sm md:text-base rounded-full text-white flex justify-center items-center md:flex-row  space-y-1 md:space-y-0 md:space-x-2">
+        <div className='flex items-center space-x-1'>
+           
+              <div><span className="text-xs md:text-sm">Reserve</span></div>
+              <div>     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+  <path d="M20.5 12L21.0303 11.4697L21.5607 12L21.0303 12.5303L20.5 12ZM5.5 12.75C5.08579 12.75 4.75 12.4142 4.75 12C4.75 11.5858 5.08579 11.25 5.5 11.25V12.75ZM14.5 6L15.0303 5.46967L21.0303 11.4697L20.5 12L19.9697 12.5303L13.9697 6.53033L14.5 6ZM20.5 12L21.0303 12.5303L15.0303 18.5303L14.5 18L13.9697 17.4697L19.9697 11.4697L20.5 12ZM20.5 12V12.75H5.5V12V11.25H20.5V12Z" fill="white"/>
+</svg></div>
+        </div>
             </button>
           </div>
         </div>
