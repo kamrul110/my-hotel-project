@@ -24,10 +24,10 @@ export default function HotelHero() {
 
           {/* Action buttons */}
           {/*  */}
-          <div className="flex items-center space-x-2 md:space-x-3">
+          <div className="flex items-center space-x-2 md:space-x-3 ">
             <div className="p-2 md:p-[10px] rounded-full bg-[#E9F6FF] ">
               {/* svg-1 */}
-              <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 41 44" fill="none">
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 md:w-10 md:h-9" viewBox="0 0 41 44" fill="none">
                 <path d="M7.16663 16.5455C7.16663 11.4029 7.16663 8.83158 8.63109 7.23398C10.0956 5.63638 12.4526 5.63638 17.1666 5.63638H23.8333C28.5473 5.63638 30.9044 5.63638 32.3688 7.23398C33.8333 8.83158 33.8333 11.4029 33.8333 16.5455V28.9593C33.8333 33.838 33.8333 36.2774 32.4261 37.0235C31.019 37.7696 29.2607 36.2625 25.7442 33.2483L24.6188 32.2837C22.6415 30.5889 21.6528 29.7414 20.5 29.7414C19.3471 29.7414 18.3584 30.5889 16.3811 32.2837L15.2557 33.2483C11.7392 36.2625 9.98094 37.7696 8.57378 37.0235C7.16663 36.2774 7.16663 33.838 7.16663 28.9593V16.5455Z" stroke="#007DD0" strokeWidth="2" />
               </svg>
 
@@ -53,7 +53,7 @@ export default function HotelHero() {
         </div>
 
         {/* Image Gallery - Responsive Layout */}
-        <div className="space-y-1 mb-6">
+        <div className="space-y-1 mb-6  rounded-md overflow-hidden">
           {/* Mobile: Single column stack */}
           <div className="md:hidden space-y-1">
             <div className="relative h-48">
@@ -61,7 +61,7 @@ export default function HotelHero() {
                 src="/images/update-1.png"
                 alt="Main Room"
                 fill
-                className="object-cover rounded-lg"
+                className="object-cover "
               />
             </div>
             <div className="grid grid-cols-2 gap-1 h-24">
@@ -70,7 +70,7 @@ export default function HotelHero() {
                   src="/images/banner-right-2.png"
                   alt="Room 2"
                   fill
-                  className="object-cover rounded-lg"
+                  className="object-cover "
                 />
               </div>
               <div className="relative">
@@ -78,14 +78,14 @@ export default function HotelHero() {
                   src="/images/banner-right-3.png"
                   alt="Room 3"
                   fill
-                  className="object-cover rounded-lg"
+                  className="object-cover "
                 />
               </div>
             </div>
           </div>
 
           {/* Desktop: Original layout */}
-          <div className="hidden md:block">
+          <div className="hidden md:block ">
             {/* Top Section: Left Large + Right Two Images */}
             <div className="grid grid-cols-3 gap-1 h-60 lg:h-80">
               {/* Left Large Image (2/3 width) */}
@@ -94,7 +94,7 @@ export default function HotelHero() {
                   src="/images/update-1.png"
                   alt="Main Room"
                   fill
-                  className="object-cover rounded-lg"
+                  className="object-cover "
                 />
               </div>
 
@@ -105,7 +105,7 @@ export default function HotelHero() {
                     src="/images/banner-right-2.png"
                     alt="Right Image 1"
                     fill
-                    className="object-cover rounded-lg hover:opacity-80 transition-opacity"
+                    className="object-cover  hover:opacity-80 transition-opacity"
                   />
                 </div>
                 <div className="relative cursor-pointer">
@@ -113,7 +113,7 @@ export default function HotelHero() {
                     src="/images/banner-right-3.png"
                     alt="Right Image 2"
                     fill
-                    className="object-cover rounded-lg hover:opacity-80 transition-opacity"
+                    className="object-cover hover:opacity-80 transition-opacity"
                   />
                 </div>
               </div>
@@ -127,7 +127,7 @@ export default function HotelHero() {
                     src={`/images/bottom-${num}.png`}
                     alt={`Bottom Image ${num}`}
                     fill
-                    className="object-cover rounded-lg hover:opacity-80 transition-opacity"
+                    className="object-cover  hover:opacity-80 transition-opacity"
                   />
                 </div>
               ))}
@@ -311,7 +311,7 @@ export default function HotelHero() {
           </div>
 
           {/* Right Sidebar - Booking Card */}
-          <div className="lg:w-1/3 md:mt-8 lg:mt-8">
+          <div className="lg:w-1/3 md:mt-8 lg:mt-8 ">
             <Card className="sticky top-6">
               <CardContent className="p-4 md:p-6">
                 <div className="mb-4">
