@@ -9,7 +9,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "strokeLinecap - DAYF Booking",
+  title: "Hotel Booking",
   description: "Book your stay at strokeLinecap with panoramic Mediterranean views",
 };
 
